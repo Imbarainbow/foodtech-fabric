@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "foodtech:test_crop"
+    }
+  },
+  "result": {
+    "item": "foodtech:compressed_basiccrop",
+    "count": 1
+  }
+}

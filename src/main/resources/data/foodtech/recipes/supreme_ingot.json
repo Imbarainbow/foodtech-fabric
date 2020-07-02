@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item" : "foodtech:vege_ingot"
+    },
+    {
+      "item" : "foodtech:meat_ingot"
+    }
+  ],
+  "result": {
+    "item": "foodtech:supreme_ingot",
+    "count": 1
+  }
+}

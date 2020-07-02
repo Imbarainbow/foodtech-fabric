@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "foodtech",
+  "version": "${version}",
+
+  "name": "FoodTech",
+  "description": "StarFish's first try",
+  "authors": [
+    "StarFish"
+  ],
+  "contact": {
+    "homepage": "none",
+    "sources": "none"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teamfish.foodtech.FoodTech"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  },
+
+  "mixins": [
+    "foodtech.mixins.json",
+    {
+      "config": "foodtech.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "foodtech:block/test_crop1"
+  }
+}

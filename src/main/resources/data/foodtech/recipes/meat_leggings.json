@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$$$",
+    "$ $",
+    "$ $"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:meat_ingot"
+    }
+  },
+  "result": {
+    "item": "foodtech:meat_leggings",
+    "count": 1
+  }
+}

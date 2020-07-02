@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "foodtech:basic_ore"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "foodtech:test_crop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion",
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "$%$",
+    "#$#"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:compressed_basiccrop"
+    },
+    "%": {
+      "item": "foodtech:vege_core"
+    },
+    "#": {
+      "item": "foodtech:basic_ingot"
+    }
+  },
+  "result": {
+    "item": "foodtech:vege_ingot",
+    "count": 1
+  }
+}

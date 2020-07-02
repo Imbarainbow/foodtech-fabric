@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "foodtech:basic_ore"
+  },
+  "result": "foodtech:basic_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

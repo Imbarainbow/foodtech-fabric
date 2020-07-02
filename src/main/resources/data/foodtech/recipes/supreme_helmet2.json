@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$$$",
+    "% #"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:supreme_ingot"
+    },
+    "#": {
+      "item": "foodtech:vege_helmet"
+    },
+    "%": {
+      "item": "foodtech:meat_helmet"
+    }
+  },
+  "result": {
+    "item": "foodtech:supreme_helmet",
+    "count": 1
+  }
+}

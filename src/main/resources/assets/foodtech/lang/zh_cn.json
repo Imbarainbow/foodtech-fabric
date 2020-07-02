@@ -1,0 +1,34 @@
+{
+
+  "itemGroup.foodtech.item": "食品科技（物品）",
+  "itemGroup.foodtech.armor": "食品科技（护甲）",
+
+  "block.foodtech.basic_ore": "基础矿石",
+  "block.foodtech.test_crop": "基础作物",
+
+  "item.foodtech.meat_ingot": "混合肉锭",
+  "item.foodtech.vege_ingot": "蔬菜锭",
+  "item.foodtech.supreme_ingot": "究极锭",
+  "item.foodtech.basic_ingot": "基础锭",
+  "item.foodtech.basic_ore": "基础矿石",
+
+  "item.foodtech.vege_helmet": "蔬菜头盔",
+  "item.foodtech.vege_chestplate": "蔬菜胸甲",
+  "item.foodtech.vege_leggings": "蔬菜护腿",
+  "item.foodtech.vege_boots": "蔬菜鞋子",
+  "item.foodtech.meat_helmet": "混合肉头盔",
+  "item.foodtech.meat_chestplate": "混合肉胸甲",
+  "item.foodtech.meat_leggings": "混合肉护腿",
+  "item.foodtech.meat_boots": "混合肉鞋子",
+  "item.foodtech.supreme_helmet": "究极头盔",
+  "item.foodtech.supreme_chestplate": "究极胸甲",
+  "item.foodtech.supreme_leggings": "究极护腿",
+  "item.foodtech.supreme_boots": "究极鞋子",
+
+  "item.foodtech.compressed_meat": "压缩肉",
+  "item.foodtech.compressed_vege": "压缩蔬菜",
+  "item.foodtech.compressed_basiccrop": "压缩基础作物",
+
+  "item.foodtech.meat_core": "压缩肉核心",
+  "item.foodtech.vege_core": "压缩蔬菜核心"
+}

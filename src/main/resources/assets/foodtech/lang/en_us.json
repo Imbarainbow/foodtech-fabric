@@ -1,0 +1,35 @@
+{
+
+  "itemGroup.foodtech.item": "FoodTech(item)",
+  "itemGroup.foodtech.armor": "FoodTech(armor)",
+
+  "block.foodtech.basic_ore": "Basic Ore",
+  "block.foodtech.test_crop": "Basic Crop",
+
+  "item.foodtech.meat_ingot": "Meat Ingot",
+  "item.foodtech.vege_ingot": "Vege Ingot",
+  "item.foodtech.supreme_ingot": "Supreme Ingot",
+  "item.foodtech.basic_ingot": "Basic Ingot",
+  "item.foodtech.basic_ore": "Basic Ore",
+
+  "item.foodtech.vege_helmet": "Vege Helmet",
+  "item.foodtech.vege_chestplate": "Vege Chestplate",
+  "item.foodtech.vege_leggings": "Vege Leggings",
+  "item.foodtech.vege_boots": "Vege Boots",
+  "item.foodtech.meat_helmet": "Meat Helmet",
+  "item.foodtech.meat_chestplate": "Meat Chestplate",
+  "item.foodtech.meat_leggings": "Meat Leggings",
+  "item.foodtech.meat_boots": "Meat boots",
+  "item.foodtech.supreme_helmet": "Supreme Helmet",
+  "item.foodtech.supreme_chestplate": "Supreme Chestplate",
+  "item.foodtech.supreme_leggings": "Supreme Leggins",
+  "item.foodtech.supreme_boots": "Supreme Boots",
+
+  "item.foodtech.compressed_meat": "Compressed Meat",
+  "item.foodtech.compressed_vege": "Compressed Vege",
+  "item.foodtech.compressed_basiccrop": "Compressed BasicCrop",
+
+  "item.foodtech.meat_core": "Meat Core",
+  "item.foodtech.vege_core": "Vege Core"
+
+}

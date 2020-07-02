@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "$%$",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "foodtech:compressed_vege"
+    },
+    "$": {
+      "item": "minecraft:obsidian"
+    },
+    "%": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "foodtech:vege_core",
+    "count": 1
+  }
+}
