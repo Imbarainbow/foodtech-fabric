@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$$",
+    "$#",
+    " #"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:meat_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foodtech:meat_axe",
+    "count": 1
+  }
+}

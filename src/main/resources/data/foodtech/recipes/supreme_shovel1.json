@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$",
+    "#",
+    "@"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:supreme_ingot"
+    },
+    "#": {
+      "item": "foodtech:vege_shovel"
+    },
+    "@": {
+      "item": "foodtech:meat_shovel"
+    }
+  },
+  "result": {
+    "item": "foodtech:supreme_shovel",
+    "count": 1
+  }
+}

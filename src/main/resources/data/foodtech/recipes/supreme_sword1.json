@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " $ ",
+    " $ ",
+    "^#&"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:supreme_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "^": {
+      "item": "foodtech:vege_sword"
+    },
+    "&": {
+      "item": "foodtech:meat_sword"
+    }
+  },
+  "result": {
+    "item": "foodtech:supreme_sword",
+    "count": 1
+  }
+}

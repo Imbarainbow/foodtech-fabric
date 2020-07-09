@@ -1,10 +1,8 @@
 package com.teamfish.foodtech.mixins;
 
-import com.teamfish.foodtech.FoodTech;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -15,6 +13,8 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import static com.teamfish.foodtech.armor.AllTheArmors.*;
 
 @Mixin(PlayerEntity.class)
 public abstract class PlayerEntityMixin extends LivingEntity {
@@ -36,21 +36,21 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 		Item boots = this.getEquippedStack(EquipmentSlot.FEET).getItem();
 
 		// player is wearing all desolation items
-		if (helmet.equals(FoodTech.VEGE_HELMET) && chestplate.equals(FoodTech.VEGE_CHESTPLATE) && leggings.equals(FoodTech.VEGE_LEGGINGS) && boots.equals(FoodTech.VEGE_BOOTS)) {
+		if (helmet.equals(VEGE_HELMET) && chestplate.equals(VEGE_CHESTPLATE) && leggings.equals(VEGE_LEGGINGS) && boots.equals(VEGE_BOOTS)) {
 			// give player status effect here
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 20 * 3, 2));
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 20 * 3, 1));
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,20 * 3, 2));
 		}
 
-		if (helmet.equals(FoodTech.MEAT_HELMET) && chestplate.equals(FoodTech.MEAT_CHESTPLATE) && leggings.equals(FoodTech.MEAT_LEGGINGS) && boots.equals(FoodTech.MEAT_BOOTS)) {
+		if (helmet.equals(MEAT_HELMET) && chestplate.equals(MEAT_CHESTPLATE) && leggings.equals(MEAT_LEGGINGS) && boots.equals(MEAT_BOOTS)) {
 			// give player status effect here
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 3, 2));
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 20 * 3, 1));
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,20 * 3, 2));
 		}
 
-		if (helmet.equals(FoodTech.SUPREME_HELMET) && chestplate.equals(FoodTech.SUPREME_CHESTPLATE) && leggings.equals(FoodTech.SUPREME_LEGGINGS) && boots.equals(FoodTech.SUPREME_BOOTS)) {
+		if (helmet.equals(SUPREME_HELMET) && chestplate.equals(SUPREME_CHESTPLATE) && leggings.equals(SUPREME_LEGGINGS) && boots.equals(SUPREME_BOOTS)) {
 			// give player status effect here
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 20 * 3, 2));
 			this.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 3, 2));

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$$",
+    " #",
+    " ^"
+  ],
+  "key": {
+    "$": {
+      "item": "foodtech:supreme_ingot"
+    },
+    "#": {
+      "item": "foodtech:meat_hoe"
+    },
+    "^": {
+      "item": "foodtech:vege_hoe"
+    }
+  },
+  "result": {
+    "item": "foodtech:supreme_hoe",
+    "count": 1
+  }
+}

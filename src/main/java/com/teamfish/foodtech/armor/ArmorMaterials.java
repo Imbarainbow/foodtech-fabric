@@ -1,13 +1,8 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package com.teamfish.foodtech.armor;
 
 import java.util.function.Supplier;
 
-import com.teamfish.foodtech.FoodTech;
+import com.teamfish.foodtech.item.AllTheItems;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.EquipmentSlot;
@@ -18,9 +13,17 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Lazy;
 
-public enum MeatArmor implements ArmorMaterial {
+
+public enum ArmorMaterials implements ArmorMaterial {
+
     meat("meat", 35, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F, 0.1F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{FoodTech.meat_ingot});
+        return Ingredient.ofItems(new ItemConvertible[]{AllTheItems.meat_ingot});
+    }),
+    supreme("supreme", 40, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.2F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{AllTheItems.supreme_ingot});
+    }),
+    vege("vege", 35, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F, 0.1F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{AllTheItems.vege_ingot});
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
@@ -33,7 +36,7 @@ public enum MeatArmor implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private MeatArmor(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
+    private ArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -66,7 +69,7 @@ public enum MeatArmor implements ArmorMaterial {
 
     @Environment(EnvType.CLIENT)
     public String getName() {
-        return "meat";
+        return this.name;
     }
 
     public float getToughness() {

@@ -13,12 +13,16 @@
     "sources": "none"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
+      "com.teamfish.foodtech.worldgeneration.Ores",
+      "com.teamfish.foodtech.armor.AllTheArmors",
+      "com.teamfish.foodtech.block.AllTheBlocks",
+      "com.teamfish.foodtech.item.AllTheItems",
       "com.teamfish.foodtech.FoodTech"
     ]
   },
